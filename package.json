@@ -1,28 +1,25 @@
 {
-  "name": "rabbit937.github.io",
+  "name": "vitepress-blog",
   "version": "1.0.0",
-  "description": "个人博客",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs",
-    "deploy": "gh-pages -d docs/.vitepress/dist"
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs",
+    "deploy": "pnpm build && gh-pages -d docs/.vitepress/dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Rabbit937/Rabbit937.github.io.git"
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "@sugarat/theme": "^0.1.30",
+    "element-plus": "^2.3.4",
+    "vue": "^3.2.47"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Rabbit937/Rabbit937.github.io/issues"
-  },
-  "homepage": "https://github.com/Rabbit937/Rabbit937.github.io#readme",
   "devDependencies": {
     "gh-pages": "^5.0.0",
-    "vitepress": "1.0.0-alpha.44",
-    "vue": "^3.2.45"
-  }
+    "sass": "^1.59.2",
+    "typescript": "^4.9.5",
+    "vitepress": "1.0.0-beta.2"
+  },
+  "author": "粥里有勺糖",
+  "license": "MIT"
 }

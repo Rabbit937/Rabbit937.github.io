@@ -1,3 +1,10 @@
+---
+sticky: 10
+description: 使用gzip压缩vue项目打包之后的产物，提升性能
+tag:
+ - VUE
+---
+
 # gzip压缩实践
 ## 实验目的：使用gzip压缩vue项目打包之后的产物，提升性能
 ## 实验环境
