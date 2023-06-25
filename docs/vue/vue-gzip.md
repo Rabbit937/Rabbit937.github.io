@@ -1,5 +1,4 @@
 ---
-sticky: 10
 description: 使用gzip压缩vue项目打包之后的产物，提升性能
 tag:
  - VUE
