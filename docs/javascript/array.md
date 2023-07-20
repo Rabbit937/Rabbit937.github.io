@@ -86,4 +86,15 @@ function camelize(str) {
 function filterRange(arr,a,b) {
     return arr.filter((value,index) => (value <= b && value >= a));
 }
+
+
+/**
+ * 
+ * @description 数组去重,利用set的每个元素只能存在一个的特性
+ * @param {array} arr
+ * @returns uniqued arr
+ */
+function unique(arr) {
+    return Array.from(new Set(arr));
+}
 ```
