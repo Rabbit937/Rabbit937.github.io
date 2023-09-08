@@ -8,8 +8,8 @@ export default defineConfig({
   // 继承博客主题配置
   extends: blogTheme,
   lang: 'zh-cn',
-  title: '@sugarat/theme',
-  description: '粥里有勺糖的博客主题，基于 vitepress 实现',
+  title: 'hackrabbit',
+  description: '使用粥里有勺糖的博客主题，基于 vitepress 实现',
   vite: {
     optimizeDeps: {
       include: ['element-plus'],
