@@ -31,14 +31,14 @@ export default defineConfig({
     //   text: '去 GitHub 上编辑内容'
     // },
     nav: [
-      { text: '首页', link: '/' },
-      { text: '关于作者', link: 'https://sugarat.top/aboutme.html' }
+      // { text: '首页', link: '/' },
+      // { text: '关于作者', link: 'https://sugarat.top/aboutme.html' }
     ],
     socialLinks: [
-      {
-        icon: 'github',
-        link: 'https://github.com/ATQQ/sugar-blog/tree/master/packages/theme'
-      }
+      // {
+      //   icon: 'github',
+      //   link: 'https://github.com/ATQQ/sugar-blog/tree/master/packages/theme'
+      // }
     ]
   }
 })
