@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
-    "serve": "vitepress serve docs"
+    "serve": "vitepress serve docs",
+    "deploy": "pnpm build && gh-pages -d docs/.vitepress/dist"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.1",
@@ -19,6 +20,7 @@
     "doc": "docs"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "sass": "^1.64.1",
     "typescript": "^5.1.6",
     "vitepress": "1.0.1"

@@ -45,12 +45,12 @@ export default defineConfig({
     // },
     nav: [
       { text: '首页', link: '/' },
-      { text: '关于作者', link: 'https://sugarat.top/aboutme.html' }
+      // { text: '关于作者', link: 'https://sugarat.top/aboutme.html' }
     ],
     socialLinks: [
       {
         icon: 'github',
-        link: 'https://github.com/ATQQ/sugar-blog/tree/master/packages/theme'
+        link: 'https://github.com/Rabbit937/Rabbit937.github.io'
       }
     ]
   }
